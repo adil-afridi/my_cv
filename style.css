@@ -17,11 +17,13 @@ body{
     height: 550px;
     display: flex;
     background-color: #fff;
+    border-radius: 10px;
 }
 .cv_container .left{
     width: 200px;
     height: 100%;
     background-color: darkorange;
+    border-radius: 10px 0px 0px 10px;
 }
 .left .header{
     width: 100%;
