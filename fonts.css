@@ -1,0 +1,43 @@
+@font-face
+{
+	font-family: oswald-bold;
+	src : url('../fonts/Oswald-Bold.ttf');
+}
+
+
+@font-face
+{
+	font-family: poppins-bold;
+	src : url('../fonts/Poppins-Bold.ttf');
+}
+
+@font-face
+{
+	font-family: poppins-normal;
+	src : url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face
+{
+	font-family: montserrat-bold;
+	src : url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face
+{
+	font-family: raleway-bold;
+	src : url('../fonts/raleway-Bold.ttf');
+}
+
+@font-face
+{
+	font-family: cairo-bold;
+	src : url('../fonts/Cairo-Bold.ttf');
+}
+
+
+@font-face
+{
+	font-family: anton-regular;
+	src : url('../fonts/Anton-Regular.ttf');
+}

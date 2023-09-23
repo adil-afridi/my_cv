@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dada;
+}
+.cv_container{
+    width: 450px;
+    height: 550px;
+    display: flex;
+    background-color: #fff;
+}
+.cv_container .left{
+    width: 150px;
+    height: 100%;
+    background-color: darkorange;
+}
+.left .header{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.header .image_site{
+    position: absolute;
+    top: 10%;
+    left: 48%;
+    width: 150px;
+    height: 150px;
+    background-color: darkorange;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image_site .image{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    background-color: blue;
+    border-radius: 50%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.left_body{
+    width: 100%;
+    margin-top: 70px;
+    padding: 3px;
+}
+
+.left_body .body_header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.left_body .body_header h4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    font-size: 11px;
+}
+.left_body .body_header h4 i{
+    margin-right: 4px;
+    font-size: 14px;
+}
+
+.left_body .body_header h3{
+    margin-right: 25%;
+    margin-bottom: 4px;
+    color: darkred;
+}
+
+
+
+.left_body .skill{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 4px;
+}
+.left_body .skill h3{
+    margin-bottom: 5px;
+    color: darkred;
+}
+.left_body .skill h4{
+    margin: 3px 0px;
+    font-size: 14px;
+}
+
+
+.left_body .language{
+    width: 100%;
+    margin-top: 20px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+}
+.language h2{
+    color: darkred;
+    margin-bottom: 5px;
+}
+.language h5{
+    font-size: 14px;
+    margin: 3px 0px;
+}
+
+.cv_container .right{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.right .resume{
+    color: darkred;
+    margin-left: -2%;
+    text-decoration: underline;
+}
+
+.right .names{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.names span{
+    font-weight: bold;
+}
+.right .obj{
+    margin-left: -10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.obj h2{
+    text-decoration: underline;
+}
+.obj p{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.tables{
+    width: 100%;
+    margin-top: 50px;
+}
+.tables table{
+    width: 120%;
+    margin-left: -25%;
+    border-collapse: collapse;
+}
+.tables  tr td,
+.tables tr th{
+    padding: 5px;
+}
+table tr th{
+    text-align: start;
+}
+
+table tr:nth-child(even){
+    background-color: #adad;
+}
