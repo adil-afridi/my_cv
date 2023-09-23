@@ -13,13 +13,13 @@ body{
     background-color: #dada;
 }
 .cv_container{
-    width: 450px;
+    width: 50%;
     height: 550px;
     display: flex;
     background-color: #fff;
 }
 .cv_container .left{
-    width: 150px;
+    width: 200px;
     height: 100%;
     background-color: darkorange;
 }
@@ -55,7 +55,7 @@ body{
 .left_body{
     width: 100%;
     margin-top: 70px;
-    padding: 3px;
+    padding: 5px;
 }
 
 .left_body .body_header{
@@ -71,17 +71,18 @@ body{
     display: flex;
     align-items: center;
     margin: 4px;
-    font-size: 11px;
+    font-size: 15px;
 }
 .left_body .body_header h4 i{
     margin-right: 4px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .left_body .body_header h3{
     margin-right: 25%;
     margin-bottom: 4px;
     color: darkred;
+    font-size: 22px;
 }
 
 
@@ -95,10 +96,11 @@ body{
 .left_body .skill h3{
     margin-bottom: 5px;
     color: darkred;
+    font-size: 22px;
 }
 .left_body .skill h4{
     margin: 3px 0px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 
@@ -116,6 +118,7 @@ body{
 .language h5{
     font-size: 14px;
     margin: 3px 0px;
+    font-size: 15px;
 }
 
 .cv_container .right{
@@ -123,14 +126,9 @@ body{
     margin-left: 15%;
 }
 
-.right .resume{
-    color: darkred;
-    margin-left: -2%;
-    text-decoration: underline;
-}
 
 .right .names{
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,7 +141,7 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .obj h2{
     text-decoration: underline;
@@ -159,7 +157,7 @@ body{
 }
 .tables table{
     width: 120%;
-    margin-left: -25%;
+    margin-left: -22%;
     border-collapse: collapse;
 }
 .tables  tr td,
