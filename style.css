@@ -14,7 +14,7 @@ body{
 }
 .cv_container{
     width: 50%;
-    height: 550px;
+    height: 600px;
     display: flex;
     background-color: #fff;
     border-radius: 10px;
